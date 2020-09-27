@@ -23,6 +23,8 @@ body{
     padding: 2rem;
 }
 h2{
+    text-align: center;
+    padding:1rem;
     margin:0;
 }
 ul{
@@ -31,8 +33,10 @@ ul{
 }
 ul li{
     margin: 1rem;
-    font-size: 1.2rem;
-    
+    font-size: 1.2rem;  
+}
+ul li label{
+    cursor: pointer;
 }
 button{
     background-color: #8e44ad;
@@ -44,9 +48,13 @@ button{
     font-size: 1.3rem;
     padding: 1.3rem;
     cursor:pointer;
-
+    border:none;
 }
 
 button:hover{
     background-color: #783295;
+}
+button:focus{
+    background-color: #4f2262;
+    outline: none;
 }
